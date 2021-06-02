@@ -19,4 +19,7 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("svd09/glasgow_xaringan_light")
 ```
 
-There is a **WIKI** page associated with the package.
+The **WIKI** page provides users with some initial information to get
+started.
+
+More details and examples can be seen here:
