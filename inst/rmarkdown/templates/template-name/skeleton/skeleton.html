@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>skeleton.knit</title>
+    <title>Title of my presentation and the topic of today</title>
     <meta charset="utf-8" />
+    <meta name="author" content="My name" />
+    <meta name="author" content="MSc / MPhil / PhD Student: XXX" />
+    <meta name="date" content="2021-06-04" />
     <script src="skeleton_files/header-attrs-2.8/header-attrs.js"></script>
     <link href="skeleton_files/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="glasgow_light.css" type="text/css" />
     <link rel="stylesheet" href="image_title.css" type="text/css" />
     <link rel="stylesheet" href="outline.css" type="text/css" />
     <link rel="stylesheet" href="blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="text_color.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -44,9 +48,6 @@ class: title-slide
 
 ---
 class: center, middle, chapter
-background-image: url("logos.jpg")
-background-size: 10%
-background-position: 95% 5%
 
 
 
@@ -101,7 +102,10 @@ This is a link to the chapter on the **xaringan** library.
 
 
 
-&lt;img src="skeleton_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
+
+
+
+&lt;img src="skeleton_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -355,7 +359,7 @@ summary(s)
 ggplot(mtcars, aes(x = mpg, y = hp, color = factor(gear))) + geom_point() +  scale_color_manual(values = gla) + theme_gla()
 ```
 
-![](skeleton_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+![](skeleton_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
 
 ]
 
@@ -384,6 +388,40 @@ ggplot(mtcars, aes(x = mpg, y = hp, color = factor(gear))) + geom_point() +  sca
 .blockquote[- Latex is dead, long live CSS
 
 - More information ]
+
+---
+
+# Change text colors
+
+* Using text colors css, we can change the text colors.
+
+.text-cobalt[Blue colored text]
+
+--
+
+.text-thistle[Thistle colored text]
+
+--
+
+## .text-rust[Rust colored text] - This is a 2nd level header 
+
+--
+
+.text-moss[Moss colored text]
+
+--
+
+* To change the color of italic font
+
+_.text-thistle[some thistle colored italic font]_
+
+
+---
+
+# Animated Graphs 
+
+* Animated graphs and interactive graphs using plotly and gganimate can be embedded into slides 
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

@@ -17,8 +17,6 @@ This template is used with the fonts.css template also provided here.
 The fonts.css template specifies the font family while this template provides
 other design elements to the template. */
 
-
-
 :root {
 
 font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +32,6 @@ font-family: Arial, Helvetica, sans-serif;
   --code-font-family: 'Source Code Pro'; */
 
 
-
   --code-font-is-google: 1;
   --base-font-size: 24px;
   --text-font-size: 1.75rem;
@@ -47,7 +44,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 /*set the background color */
 
- --background-color: #FFFFFF;
+ /*--background-color: #efefef; */
 
  /* set the font colors for the slides */
 
@@ -58,7 +55,6 @@ font-family: Arial, Helvetica, sans-serif;
  --text-bold-color: #B30C00; /*bold text color */
 
  --link-color: #4F5961; /* link text color */
-
 
 /* only for inverse slides */
 
@@ -78,13 +74,11 @@ html {
   font-size: var(--base-font-size);
 }
 
-
 body {
   font-family: var(--text-font-family), var(--text-font-family-fallback), var(--text-font-base);
   font-weight: normal;
   color: var(--text-color);
 }
-
 
 h1 {
   font-family: var(--header-font-family), var(--header-font-family-fallback);
@@ -99,7 +93,6 @@ h2 {
 
 }
 
-
 h3 {
     font-family: var(--header-font-family), var(--header-font-family-fallback);
   font-weight: 200;
@@ -107,23 +100,23 @@ h3 {
 
 }
 
-
 /* set the defaults for the main slides */
 
-
-
-
 .remark-slide-content {
-  background-color: var(--background-color);
+ /* background-color: var(--background-color); */
+  
+  background-color: #efefef; 
   font-size: 1rem;
   padding: 16px 64px 16px 64px;
   width: 100%;
   height: 100%;
-  background-image: url(logos.jpg);
+  background-image: url(logos.jpg), linear-gradient(#a7a7a7, rgb(0, 181, 209));
   background-size: 10%;
-  background-position: 95% 5%;
-}
+  background-position: 95% 5%; 
+  
 
+  
+}
 
 /*center the main heading of each slide */
 
@@ -132,25 +125,21 @@ h3 {
   text-align: center;
 }
 
-
 /*adjust the size for each header from h1,h2,h3 */
 
 .remark-slide-content h2 {
   font-size: var(--header-h2-font-size);
 }
 
-
 .remark-slide-content h3 {
   font-size: var(--header-h3-font-size);
 }
-
 
 /*set the font for the inline code */
 
 .remark-code, .remark-inline-code {
   font-family: var(--code-font-family), Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
-
 
 .remark-code {
   font-size: var(--code-font-size);
@@ -172,12 +161,10 @@ strong {
 
 }
 
-
 a, a > code {
   color: var(--link-color);
   text-decoration: none;
 }
-
 
 .footnote {
   position: absolute;
@@ -190,35 +177,26 @@ a, a > code {
   background-color: var(--code-highlight-color);
 }
 
-
-
-
 /*
 .title-slide {
   background-color: var(--title-slide-background-color);
 }
 
-
 .title-slide .remark-slide-number {
   display: none;
 }
-
 
 .title-slide .remark-slide-content:before {
     position: absolute;
   content:url(transparent_logo.png);
   height:60px;
-
 }
 
 */
 
-
 /* allow for vertical scrolling of results */
 
-
 /* to allow for vertical scrolling of R code chunk and results */
-
 
 .pre-small {
   height: 10pc;
@@ -230,12 +208,10 @@ a, a > code {
   overflow-y: scroll;
 }
 
-
 .pre-whole {
   height: 30pc;
   overflow-x: scroll;
 }
-
 
 /* types of slides */
 
@@ -260,7 +236,6 @@ a, a > code {
 
 /* two columns with equal content space */
 
-
 .pull-left {
   float: left;
   width: 47%;
@@ -272,8 +247,6 @@ a, a > code {
 
 }
 
-
-
 img, video, iframe {
   max-width: 100%;
 }
@@ -282,10 +255,7 @@ blockquote {
   padding-left: 1em;
 }
 
-
-
 /* table information */
-
 
 .remark-slide table {
   margin: auto;
@@ -336,4 +306,30 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 .remark-slide-content.header_background {
   padding-top: 7rem;
+}
+
+/*
+change the background color only for the chapter slide.
+
+the chapter is another new attribute created to develop a new format.
+
+similar to this any attribute can be provided to the css file and a new type of slide can be created.
+
+each chapter slide will be a transition slide between the first part and the next part of the presentation.
+
+this transition slide will be gray color and white font.
+*/
+
+.chapter{
+  background-color: #efefef; 
+  padding: 16px 64px 16px 64px;
+  width: 100%;
+  height: 100%;
+  background-image: url(logos.jpg), linear-gradient(#a7a7a7, rgb(0, 181, 209));
+  background-size: 10%;
+  background-position: 95% 5%; 
+}
+
+.chapter>h1{
+  color: #7D2239;
 }

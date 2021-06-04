@@ -7,8 +7,7 @@ author:
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    css: ['glasgow_light.css','image_title.css','outline.css',
-    'blockquote.css']
+    css: ['glasgow_light.css','image_title.css','outline.css','blockquote.css','text_color.css']
     seal: false
     nature:
       slideNumberFormat: "%current%"
@@ -49,9 +48,6 @@ class: title-slide
 
 ---
 class: center, middle, chapter
-background-image: url("logos.jpg")
-background-size: 10%
-background-position: 95% 5%
 
 
 
@@ -357,3 +353,37 @@ ggplot(mtcars, aes(x = mpg, y = hp, color = factor(gear))) + geom_point() +  sca
 .blockquote[- Latex is dead, long live CSS
 
 - More information ]
+
+---
+
+# Change text colors
+
+* Using text colors css, we can change the text colors.
+
+.text-cobalt[Blue colored text]
+
+--
+
+.text-thistle[Thistle colored text]
+
+--
+
+## .text-rust[Rust colored text] - This is a 2nd level header 
+
+--
+
+.text-moss[Moss colored text]
+
+--
+
+* To change the color of italic font
+
+_.text-thistle[some thistle colored italic font]_
+
+
+---
+
+# Animated Graphs 
+
+* Animated graphs and interactive graphs using plotly and gganimate can be embedded into slides 
+
