@@ -34,8 +34,6 @@ class: title-slide
 
 ###`r icon::ii("email")` abc@123.edu  
 
-
-
 ---
 
 # Contents of the title slide
@@ -45,6 +43,8 @@ class: title-slide
 * The yaml options for **xaringan** slides provided in this template are title, author, and date. 
 
 * Apart from the standard yaml options, **autoplay** and **loop** can be used to loop the slides creating a continuous slideshow.
+
+* the yaml contains .text-rust[_seal:false_], that way, you can create a new title slide without pulling information from the yaml.
 
 ---
 class: center, middle, chapter
