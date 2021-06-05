@@ -1,14 +1,13 @@
 Package: lightTheme
-Title: University of Glasgow themed xaringan template
-Version: 1.0.0.0
+Title: U of Glasgow themed xarigan template
+Version: 0.0.0.9000
 Authors@R: 
     person(given = "Salil",
            family = "Deo",
            role = c("aut", "cre"),
-           email = "s.deo.1@research.gla.ac.uk"
-           
-Description: This is a xaringan template developed according to the University of Glasgow theme
-License: `use_cco_license()`
+           email = "s.deo.1@research.gla.ac.uk")
+Description: This is a Xaringan themed template as per U of Glasgow colors. The template contains logo and uses colors specified by the University. The package is distributed as per specifications in the CCO license.
+License: CC0 license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
