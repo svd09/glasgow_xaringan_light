@@ -38,5 +38,5 @@ devtools::install_github("svd09/glasgow_xaringan_light")
 ```
 The **WIKI** page provides users with some initial information to get started.
 
-More details and examples can be seen here: 
+[Template demo slides can be seen here](https://svd09.github.io/lighttheme_demo/) 
 
