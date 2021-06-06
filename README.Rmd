@@ -22,9 +22,9 @@ library(badger)
 
 `r badger::badge_lifecycle("stable release", col = "blue")`
 
-# lightTheme
+# glasgow_xaringan_light
 
-The goal of lightTheme is to provide a light themed template for creating slides using the University of Glasgow logo and colors.
+The goal of this package is to provide a light themed template for creating slides using the University of Glasgow logo and colors.
 
 ## Installation
 

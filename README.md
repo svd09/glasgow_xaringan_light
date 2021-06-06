@@ -3,9 +3,9 @@
 
 [![](https://img.shields.io/badge/lifecycle-stable%20release-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable%20release)
 
-# lightTheme
+# glasgow\_xaringan\_light
 
-The goal of lightTheme is to provide a light themed template for
+The goal of this package is to provide a light themed template for
 creating slides using the University of Glasgow logo and colors.
 
 ## Installation
