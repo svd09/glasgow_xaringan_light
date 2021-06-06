@@ -20,7 +20,7 @@ library(badger)
 ```
 
 
-`r badger::badge_lifecycle("under development", col = "blue")`
+`r badger::badge_lifecycle("stable release", col = "blue")`
 
 # lightTheme
 

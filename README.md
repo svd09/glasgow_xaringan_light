@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![](https://img.shields.io/badge/lifecycle-under%20development-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#under%20development)
+[![](https://img.shields.io/badge/lifecycle-stable%20release-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable%20release)
 
 # lightTheme
 
