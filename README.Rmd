@@ -30,7 +30,7 @@ The goal of lightTheme is to provide a light themed template for creating slides
 
 The package is not on CRAN and can be installed from github.
 
-And the development version from [GitHub](https://github.com/) with:
+A stable version can be installed from [GitHub](https://github.com/) 
 
 ``` r
 # install.packages("devtools")

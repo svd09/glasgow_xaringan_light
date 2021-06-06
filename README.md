@@ -12,7 +12,7 @@ creating slides using the University of Glasgow logo and colors.
 
 The package is not on CRAN and can be installed from github.
 
-And the development version from [GitHub](https://github.com/) with:
+A stable version can be installed from [GitHub](https://github.com/)
 
 ``` r
 # install.packages("devtools")
