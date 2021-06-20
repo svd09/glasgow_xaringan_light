@@ -32,7 +32,7 @@ class: title-slide
 
 ###xxxx, xxxx
 
-###`r icon::ii("email")` abc@123.edu  
+###E-mail: abc@123.edu  
 
 ---
 
